@@ -16,9 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".scratch" />
-        <activity android:name=".Python" />
-        <activity android:name=".C"></activity>
+        <activity android:name=".FrameC" />
+        <activity android:name=".FrameScratch" />
+        <activity android:name=".FramePython"></activity>
     </application>
 
 </manifest>

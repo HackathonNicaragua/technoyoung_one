@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         openScratch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent opscratch = new Intent(MainActivity.this, scratch.class);
+                Intent opscratch = new Intent(MainActivity.this, FrameScratch.class);
                 startActivity(opscratch);
             }
         });
@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
         openC.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent opC = new Intent(MainActivity.this, C.class);
+                Intent opC = new Intent(MainActivity.this, FrameC.class);
                 startActivity(opC);
             }
         });
@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
         openPy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent opPy = new Intent(MainActivity.this, Python.class);
+                Intent opPy = new Intent(MainActivity.this, FramePython.class);
                 startActivity(opPy);
             }
         });
