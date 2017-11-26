@@ -4,9 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="technoyoung.technoyoungone.c_activity"
-    tools:showIn="@layout/activity_c_activity">
-
+    tools:context="technoyoung.technoyoungone.scratch">
 
 </android.support.constraint.ConstraintLayout>
