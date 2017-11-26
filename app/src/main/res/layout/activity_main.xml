@@ -68,9 +68,21 @@
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="90dp"
+                android:layout_height="51dp"
                 android:layout_gravity="center"
                 android:layout_margin="20dp" />
+
+            <Button
+                android:id="@+id/fb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:background="#c0c0c0"
+                android:padding="10dp"
+                android:text="Siguenos"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
 
 
             <Button

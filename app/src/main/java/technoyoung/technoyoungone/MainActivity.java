@@ -2,6 +2,7 @@ package technoyoung.technoyoungone;
 
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -78,6 +79,16 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent opPy = new Intent(MainActivity.this, FramePython.class);
                 startActivity(opPy);
+            }
+        });
+
+        Button facebook = (Button)findViewById(R.id.fb);
+        facebook.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Uri uri = Uri.parse("https://www.facebook.com/technoyoungone/");
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(intent);
             }
         });
     }
