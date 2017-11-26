@@ -59,7 +59,7 @@
                 android:layout_margin="20dp"
                 android:background="#c0c0c0"
                 android:padding="10dp"
-                android:text="Pyhon"
+                android:text="Python"
                 android:textColor="#ffffff"
                 android:textSize="20sp" />
 
