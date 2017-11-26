@@ -110,11 +110,13 @@ public class MainActivity extends AppCompatActivity {
     {
         switch (menu.getItemId()){
             case R.id.about:
-
+                Intent opAb = new Intent(MainActivity.this, Acerca.class);
+                startActivity(opAb);
                 return true;
 
             default:
                 return super.onOptionsItemSelected(menu);
         }
     }
+
 }
