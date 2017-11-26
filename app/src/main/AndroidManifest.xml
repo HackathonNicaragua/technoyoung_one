@@ -17,7 +17,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".scratch" />
-        <activity android:name=".C" />
         <activity android:name=".Python"></activity>
     </application>
 
