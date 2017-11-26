@@ -6,4 +6,10 @@
     android:layout_height="match_parent"
     tools:context="technoyoung.technoyoungone.scratch">
 
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="413dp"
+        android:layout_height="35dp"
+        android:text="SCRATCH"
+        android:textAlignment="center" />
 </android.support.constraint.ConstraintLayout>

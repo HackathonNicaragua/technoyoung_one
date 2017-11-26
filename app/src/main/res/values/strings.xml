@@ -4,4 +4,10 @@
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="title_activity_c_activity">c_activity</string>
+    <string name="title_activity_scratch">Scratch</string>
+    <string name="scratch">Scratch</string>
+    <string name="python">Python</string>
+    <string name="c">C++</string>
+    <string name="salir">Salir</string>
+    <string name="seleccione_una_opci_n">Seleccione una Opción</string>
 </resources>
