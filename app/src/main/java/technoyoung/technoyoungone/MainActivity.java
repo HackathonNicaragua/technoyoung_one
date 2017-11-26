@@ -7,9 +7,12 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
+import static technoyoung.technoyoungone.R.id.default_activity_button;
 import static technoyoung.technoyoungone.R.id.salida_btn;
 
 
@@ -92,5 +95,26 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu)
+    {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem menu)
+    {
+        switch (menu.getItemId()){
+            case R.id.about:
+
+                return true;
+
+            default:
+                return super.onOptionsItemSelected(menu);
+        }
     }
 }
